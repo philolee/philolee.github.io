@@ -42,8 +42,8 @@ timezone:      null
 title: Philolee
 description: Just another Jekyll theme design and code by zhanxin.info.
 keywords: Java,Lucene
-#url: http://pizn.github.io/kunka
-url: http://127.0.0.1:4000
+url: philolee.com
+#url: http://127.0.0.1:4000
 feed: /atom.xml
 favicon: http://jekyllrb.com/favicon.png
 
