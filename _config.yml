@@ -39,10 +39,10 @@ timezone:      null
 
 
 #Site config
-title: Philolee
+title: Philo Lee
 description: Just another Jekyll theme design and code by zhanxin.info.
 keywords: Java,Lucene
-url: philolee.com
+url: http://philolee.com
 #url: http://127.0.0.1:4000
 feed: /atom.xml
 favicon: http://jekyllrb.com/favicon.png
