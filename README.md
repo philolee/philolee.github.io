@@ -1,1 +1,1 @@
-[Philo Lee Blog](philolee.com)
+[Philo Lee Blog](http://philolee.com)

@@ -124,18 +124,16 @@ Lisenter模式的优点是，我们不需要自己去实现遍历方法，contex
 
 Calculator生成的parser回调函数调用顺序，
 {% highlight java %}
-
-    enterStat(StatContext)
-    enterAssign(AssignContext)
-    visitTerminal(TerminalNode)
-    visitTerminal(TerminalNode)
-    enterExpr(ExprContext)
-    visitTerminal(TerminalNode)
-    exitExpr(ExprContext)
-    visitTerminal(TerminalNode)
-    exitAssign(AssignContext)
-    exitStat(StatContext)
-
+enterStat(StatContext)
+enterExpr(ExprContext)
+enterAssign(AssignContext)
+visitTerminal(TerminalNode)
+visitTerminal(TerminalNode)
+visitTerminal(TerminalNode)
+visitTerminal(TerminalNode)
+exitAssign(AssignContext)
+exitExpr(ExprContext)
+exitStat(StatContext)
 {% endhighlight %}
 
 
@@ -152,7 +150,7 @@ Calculator生成的parser回调函数调用顺序，
 Antlr plugin会生成相应的vistor接口，用户可以自定义遍历方法。
 
 
-介绍词法语法分析当然需要一个例子，就使用最经典的计算器的例子。我使用listener模式实现了一个calculator的例子。
+我使用listener模式实现了一个calculator的例子。
 
 Calculator example: [Antlr examples]{:target="_blank"}
 
