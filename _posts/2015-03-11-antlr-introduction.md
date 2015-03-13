@@ -150,6 +150,9 @@ exitStat(StatContext)
 {% endhighlight %}
 Antlr plugin会生成相应的vistor接口，用户可以自定义遍历方法。
 
+Antlr还有很多强大的功能，这里就不一一介绍了，有兴趣的话，可以参考Antlr的资料。
+
+推荐官方资料[The Definitive ANTLR 4 Reference](https://github.com/loranbriggs/Antlr/blob/master/The%20Definitive%20ANTLR%204%20Reference.pdf)
 
 我使用listener模式实现了一个calculator的例子。
 
