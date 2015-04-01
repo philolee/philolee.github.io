@@ -76,7 +76,7 @@ echo test2 >> /tmp/input.txt
 echo test3 >> /tmp/input.txt 
 {% endhighlight %}
 
-访问[http://localhost:4000](http://localhost:4000){:target="_blank"}
+访问[http://localhost:5601](http://localhost:5601){:target="_blank"}
 ![Kibanan parse tree]({{ site.url }}/images/assets/logstash.png)
 
 
